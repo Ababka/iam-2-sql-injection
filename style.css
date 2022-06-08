@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    width: 200px;
+}
+
+.container button {
+    background-color: black;
+    color: white;
+    max-width: 100px;
+}
+
+.container input {
+    max-width: 150px;
+}
+
+.unauthorized {
+    background-color: red;
+    max-width: 310px;
+    font-size: 25px;
+}
+
+.error {
+    background-color: red;
+    max-width: 215px;
+    font-size: 25px;
+}
